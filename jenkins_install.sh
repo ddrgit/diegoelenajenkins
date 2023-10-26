@@ -8,3 +8,4 @@ cat /etc/apt/sources.list.d/jenkins.list
 sudo apt-get update
 sudo apt-get install jenkins -y
 sudo apt-get install git docker.io
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
